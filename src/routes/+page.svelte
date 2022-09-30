@@ -9,10 +9,10 @@
 	<div class="grid grid-cols-3 gap-7">
 		{#each data.images as image}
 			<div class="aspect-square">
-                {#if /.*\.mp4/.test(image[1])}
+				{#if /.*\.mp4/.test(image[1])}
 					<video src={image[1]} class="w-full h-full object-cover" />
 				{:else}
-					<img src={image[1] + "?w=200&h=200&webp"} class="w-full h-full object-cover" />
+					<img src={image[1]} class="w-full h-full object-cover" />
 				{/if}
 			</div>
 		{/each}
