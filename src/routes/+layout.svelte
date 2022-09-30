@@ -3,6 +3,6 @@
 </script>
 
 
-<div>
+<luc-wrapper>
     <slot />
-</div>
+</luc-wrapper>
