@@ -4,3 +4,5 @@ export function load({ data }) {
 		images: data.images
 	};
 }
+
+export const prerender = true;

@@ -8,3 +8,5 @@ export const load = async () => {
 		images
 	};
 }
+
+export const prerender = true;

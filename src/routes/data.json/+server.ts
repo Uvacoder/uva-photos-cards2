@@ -6,3 +6,5 @@ export const GET: RequestHandler = async ({ url }) => {
 
 	return new Response(JSON.stringify(images));
 };
+
+export const prerender = true;
